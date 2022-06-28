@@ -11,6 +11,8 @@
     <div class="layoutdiv">
         <Nav/>
         <slot/>
+    </div>
+    <div class="copyright-wrap">
         <Copyright/>
     </div>
 </body>
@@ -26,6 +28,8 @@
     .layoutdiv {
         max-width: 90%;
     }
+.copyright-wrap {
+   position: absolute;
+   bottom: 0px;
+}
 </style>
-
-
