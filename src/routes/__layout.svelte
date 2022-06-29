@@ -31,7 +31,7 @@
 .copyright-wrap {
    bottom: 0px;
    text-align: center;
-   margin: auto;
    position: absolute;
+   width: 100%;
 }
 </style>
