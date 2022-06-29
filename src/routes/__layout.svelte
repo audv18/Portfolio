@@ -12,10 +12,11 @@
         <Nav/>
         <slot/>
     </div>
-    <div class="copyright-wrap">
-        <Copyright/>
-    </div>
 </body>
+
+<div class="copyright-wrap">
+    <Copyright/>
+</div>
 
 <style>
      body {
@@ -31,7 +32,7 @@
 .copyright-wrap {
    bottom: 0px;
    text-align: center;
-   position: absolute;
+   position: fixed;
    width: 100%;
 }
 </style>
