@@ -19,12 +19,11 @@
 
 <style>
      body {
-        background:black;
+        background: #384143;
         color:white;
         font-family: 'Raleway', sans-serif;
         padding: 10px;
     }
-
     .layoutdiv {
         max-width: 90%;
         margin: auto;
