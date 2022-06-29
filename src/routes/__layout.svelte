@@ -30,8 +30,9 @@
         margin: auto;
     }
 .copyright-wrap {
-   position: absolute;
    bottom: 0px;
+   text-align: center;
    margin: auto;
+   position: absolute;
 }
 </style>

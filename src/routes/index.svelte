@@ -1,19 +1,21 @@
 <img src="./audv.png" alt="AUDV LOGO" class="center">
 <body>
-    <div>
+    <div class=name>
         <h1>Andrew Urban Daniels</h1>
     </div>
-    <p>Welcome to my webiste.</p>
-    <p>I developed this website using <a href="https://kit.svelte.dev/">SvelteKit</a>. I specialize in web development and currently I am learning JavaScript. Please feel free to look around to see projects I have been a part of, more about me, and contact information.</p>
+    <div class=mainbody>
+        <p>Welcome to my webiste.</p>
+        <p>I developed this website using <a href="https://kit.svelte.dev/">SvelteKit</a>. I specialize in web development and currently I am learning JavaScript. Please feel free to look around to see projects I have been a part of, more about me, and contact information.</p>
+    </div>
 </body>
 
 
 <style>
-    div {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 27%;
+    .mainbody {
+        text-align: center;
+    }
+    .name {
+        text-align: center;
     }
     a {
         color:white;
