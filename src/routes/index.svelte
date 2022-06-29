@@ -1,10 +1,20 @@
-<img src="./audv.png" alt="AUDV LOGO">
-<h1>Andrew Urban Daniels</h1>
-<p>Welcome to my webiste.</p>
-<p>I developed this website using <a href="https://kit.svelte.dev/">SvelteKit</a>. I specialize in web development and currently I am learning JavaScript. Please feel free to look around to see projects I have been a part of, more about me, and contact information.</p>
+<img src="./audv.png" alt="AUDV LOGO" class="center">
+<body>
+    <div>
+        <h1>Andrew Urban Daniels</h1>
+    </div>
+    <p>Welcome to my webiste.</p>
+    <p>I developed this website using <a href="https://kit.svelte.dev/">SvelteKit</a>. I specialize in web development and currently I am learning JavaScript. Please feel free to look around to see projects I have been a part of, more about me, and contact information.</p>
+</body>
 
 
 <style>
+    div {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 27%;
+    }
     a {
         color:white;
         text-decoration: none;
@@ -15,5 +25,11 @@
     img {
         width:300px;
         margin-top:50px;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
     }
 </style>

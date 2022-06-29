@@ -27,9 +27,11 @@
 
     .layoutdiv {
         max-width: 90%;
+        margin: auto;
     }
 .copyright-wrap {
    position: absolute;
    bottom: 0px;
+   margin: auto;
 }
 </style>
