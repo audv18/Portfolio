@@ -14,7 +14,7 @@
         gap: 1rem;
     }
     a {
-        color:rgb(0, 0, 0);
+        color:rgb(20, 35, 108);
         text-decoration: none;
     }
     a:hover {

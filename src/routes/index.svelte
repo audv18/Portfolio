@@ -23,7 +23,7 @@
         text-decoration: none;
     }
     a:hover {
-        color: rgb(0, 48, 65);
+        color: rgb(8, 155, 228);
     }
     img {
         width:300px;
