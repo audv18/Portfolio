@@ -27,8 +27,8 @@ import PageTransition from "./components/PageTransition.svelte";
 
 <style>
      body {
-        background: #384143;
-        color:white;
+        background: #fffbec;
+        color:rgb(20, 35, 108);
         font-family: 'Raleway', sans-serif;
         padding: 10px;
     }

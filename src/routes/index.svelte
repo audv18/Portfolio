@@ -19,11 +19,11 @@
         text-align: center;
     }
     a {
-        color:white;
+        color:rgb(0, 0, 0);
         text-decoration: none;
     }
     a:hover {
-        color: rgb(144, 219, 244);
+        color: rgb(0, 48, 65);
     }
     img {
         width:300px;

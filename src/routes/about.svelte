@@ -24,13 +24,6 @@
     .About {
         text-align: center;
     }
-    a {
-        color:white;
-        text-decoration: none;
-    }
-    a:hover {
-        color: rgb(144, 219, 244);
-    }
     img {
         width:300px;
         margin-top:30px;
