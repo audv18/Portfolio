@@ -1,6 +1,8 @@
 <script>
     import Nav from "./components/nav.svelte";
     import Copyright from "./components/copyright.svelte";
+import PageTransition from "./components/PageTransition.svelte";
+    export let url;
 </script>
 
 <svelte:head>
@@ -8,10 +10,15 @@
 </svelte:head>
 
 <body>
-    <div class="layoutdiv">
-        <Nav/>
-        <slot/>
+    <div>
+        <div class="layoutdiv">
+            <Nav/>
+        </div>
+        <PageTransition { url }>
+            <slot/>
+        </PageTransition>
     </div>
+  
 </body>
 
 <div class="copyright-wrap">
@@ -36,3 +43,13 @@
    width: 100%;
 }
 </style>
+
+<script context="module">
+/**@type {import('sveltejs/kit').Load}*/
+export const load = async ({ url }) => ({ props: { url }});
+</script>
+
+
+
+
+
