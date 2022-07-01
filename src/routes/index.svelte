@@ -22,7 +22,7 @@
         text-decoration: none;
     }
     a:hover {
-        color: rgb(8, 155, 228);
+        color: rgb(7, 32, 255);
     }
     img {
         width:300px;

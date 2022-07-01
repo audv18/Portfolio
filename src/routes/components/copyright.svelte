@@ -5,6 +5,6 @@
         text-decoration: none;
     }
     a:hover {
-        color: rgb(144, 219, 244);
+        color: rgb(7, 32, 255);
     }
 </style>
