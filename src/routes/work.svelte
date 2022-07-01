@@ -2,8 +2,8 @@
     <div class="github">
         <h2><a href="https://github.com/audv18">GitHub</a></h2>
     </div>
-    <div class="Twitter">
-        <h2><a href="https://twitter.com/audv_dev">Twitter</a></h2>
+    <div class="Linkedin">
+        <h2><a href="https://www.linkedin.com/in/andrew-daniels-56a781224">LinkedIn</a></h2>
     </div>
     <div class="feed">
         <a class="twitter-timeline" href="https://twitter.com/audv_dev?ref_src=twsrc%5Etfw">Tweets by audv_dev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -20,7 +20,7 @@
     .github {
         text-align: center;
     }
-    .Twitter {
+    .Linkedin {
         text-align: center;
     }
     a {

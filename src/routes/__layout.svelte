@@ -14,11 +14,12 @@ import PageTransition from "./components/PageTransition.svelte";
         <div class="layoutdiv">
             <Nav/>
         </div>
-        <PageTransition { url }>
-            <slot/>
-        </PageTransition>
+        <div class="maintext">
+            <PageTransition { url }>
+                <slot/>
+            </PageTransition>
+        </div>
     </div>
-  
 </body>
 
 <div class="copyright-wrap">
@@ -26,11 +27,17 @@ import PageTransition from "./components/PageTransition.svelte";
 </div>
 
 <style>
+    .maintext {
+        text-align: justify;
+        text-justify: inter-word;
+    }
      body {
         background: #fffbec;
         color:rgb(20, 35, 108);
         font-family: 'Raleway', sans-serif;
         padding: 10px;
+        text-align: justify;
+        text-justify: inter-word;
     }
     .layoutdiv {
         max-width: 90%;

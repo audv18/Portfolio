@@ -2,8 +2,10 @@
     <div class="About">
         <h1>About Me</h1>
     </div>
-    <div class="mainbody">
+    <div class="Myname">
         <p>My name is Andrew Urban Daniels.</p>
+    </div>
+    <div class="mainbody">
         <p>I am from Phoenix, Arizona, but currently based out of Salt Lake City, Utah. I will graduate with a Bachelors degree in Psychology from Utah Valley University in the spring of 2023. My two passions are serving others and creating memorable products. This brought forth my aspiration to learn to code. My Great Great Grandfather, Archie U. Daniels, has passed on the initials A.U.D for generations. I am the fifth generation to inherit these initials, hence the roman numeral V. </p>
     </div>
     <div class="propic">
@@ -18,8 +20,13 @@
         margin-right: auto;
         width: 300px;
     }
+    .Myname {
+        text-align: center;
+    }
     .mainbody {
         text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
     }
     .About {
         text-align: center;
