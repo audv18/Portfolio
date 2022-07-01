@@ -5,9 +5,18 @@
     <div class="Twitter">
         <h2><a href="https://twitter.com/audv_dev">Twitter</a></h2>
     </div>
+    <div class="feed">
+        <a class="twitter-timeline" href="https://twitter.com/audv_dev?ref_src=twsrc%5Etfw">Tweets by audv_dev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
 </body>
 
 <style>
+      .feed {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
     .github {
         text-align: center;
     }

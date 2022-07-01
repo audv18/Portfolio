@@ -8,18 +8,9 @@
         <p>I developed this website using <a href="https://kit.svelte.dev/">SvelteKit</a>. I specialize in web development and currently I am learning JavaScript.</p>
         <p>Please feel free to look around to see projects I have been a part of, more about me, and contact information.</p>
     </div>
-    <div class="feed">
-        <a class="twitter-timeline" href="https://twitter.com/audv_dev?ref_src=twsrc%5Etfw">Tweets by audv_dev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
 </body>
 
 <style>
-    .feed {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1200px;
-    }
     .mainbody {
         text-align: center;
     }
