@@ -2,10 +2,11 @@
 <body>
     <div class=name>
         <h1>Andrew Urban Daniels</h1>
+        <p>Welcome.</p>
     </div>
     <div class=mainbody>
-        <p>Welcome.</p>
-        <p>I developed this website using <a href="https://kit.svelte.dev/">SvelteKit</a>. I specialize in web development and currently I am learning JavaScript. Please feel free to look around to see projects I have been a part of, more about me, and contact information.</p>
+        <p>I developed this website using <a href="https://kit.svelte.dev/">SvelteKit</a>. I specialize in web development and currently I am learning JavaScript.</p>
+        <p>Please feel free to look around to see projects I have been a part of, more about me, and contact information.</p>
     </div>
 </body>
 
