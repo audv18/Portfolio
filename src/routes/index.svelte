@@ -12,6 +12,7 @@
 
 <style>
     .mainbody {
+        margin: auto;
         text-align: center;
         text-align: justify;
         text-justify: inter-word;
