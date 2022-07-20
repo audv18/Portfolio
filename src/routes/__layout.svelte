@@ -32,9 +32,9 @@ import PageTransition from "./components/PageTransition.svelte";
         text-justify: inter-word;
     }
      body {
-        background: #fffbec;
-        color:rgb(20, 35, 108);
-        font-family: 'Raleway', sans-serif;
+        background: white;
+        color:rgb(0, 0, 0);
+        font-family: 'Saira', sans-serif;
         padding: 10px;
         text-align: justify;
         text-justify: inter-word;
