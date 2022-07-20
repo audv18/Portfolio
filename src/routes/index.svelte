@@ -5,17 +5,14 @@
         <p>Welcome.</p>
     </div>
     <div class=mainbody>
-        <p>I developed this website using <a href="https://kit.svelte.dev/">SvelteKit</a>. I specialize in web development and currently I am learning JavaScript.</p>
-        <p>Please feel free to look around to see projects I have been a part of, more about me, and contact information.</p>
+        <p>I developed this website using <a href="https://kit.svelte.dev/">SvelteKit</a>.</p>
     </div>
 </body>
 
 <style>
     .mainbody {
-        margin: auto;
-        text-align: center;
-        text-align: justify;
-        text-justify: inter-word;
+        display: flex;
+        justify-content: center;
     }
     .name {
         text-align: center;
